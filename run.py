@@ -1,8 +1,11 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome("C:\webdrivers\chromedriver.exe")
-
+try:
+    driver = webdriver.Chrome("C:\webdrivers\chromedriver.exe")
+except:
+    driver = webdriver.Chrome("C:\webdrivers\chromedriver.exe")
+    
 account_missing_upvote = []
 accounts = ['samuel-swinton', 'josephsavage', 'altonos', 'bozz']
 
