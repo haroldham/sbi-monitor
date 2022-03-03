@@ -7,7 +7,7 @@ except:
     driver = webdriver.Chrome("C:\webdrivers\chromedriver.exe")
     
 account_missing_upvote = []
-accounts = ['samuel-swinton', 'josephsavage', 'altonos', 'bozz']
+accounts = ['samuel-swinton', 'josephsavage', 'altonos', 'bozz', 'freewritehouse', 'psyberx']
 
 for account in accounts:
     posts_url = "https://hive.blog/@{}".format(account)
