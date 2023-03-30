@@ -33,6 +33,7 @@ for account in accounts:
                 break
 
         if not sbi_upvote:
+            print(driver.current_url + " FAILED")
             account_missing_upvote.append(account)
         else:
             print(driver.current_url + " SUCCESS")
