@@ -28,7 +28,7 @@ for account in accounts:
 
         sbi_upvote = False
         for post_voter_account in post_voter_accounts:
-            if post_voter_account.text == '@steembasicincome':
+            if post_voter_account.text in ['@steembasicincome', '@sbi2', '@sbi3', '@sbi4', '@sbi5', '@sbi6', '@sbi7', '@sbi8', '@sbi9']:
                 sbi_upvote = True
                 break
 
